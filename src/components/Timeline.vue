@@ -115,7 +115,12 @@
       <template #startDate>October 2018</template>
       <template #endDate>May 2019</template>
       <template #title>
-        Thesis: using machine learning to reduce deforestation (mark: 81%).
+        <a
+          href="https://github.com/SamLubbers/CV/raw/master/thesis_bachelors_SamLubbers.pdf"
+          target="_blank"
+          >Thesis:
+        </a>
+        using machine learning to reduce deforestation (mark: 81%).
       </template>
       <template #description>
         <p>
@@ -134,8 +139,14 @@
     <TimelineItem>
       <template #startDate>June 2019</template>
       <template #title>
-        Graduated from Bacherlor of Science in Computer Science with Business
-        with first-class honours (average mark: 74.55%).
+        <a
+          href="https://github.com/SamLubbers/CV/raw/master/certificate_transcript_SamLubbers.pdf"
+          target="_blank"
+        >
+          Graduated
+        </a>
+        from Bacherlor of Science in Computer Science with Business with
+        first-class honours (average mark: 74.55%).
       </template>
     </TimelineItem>
     <TimelineItem>
@@ -143,7 +154,9 @@
       <template #endDate>Present</template>
       <template #title>
         Work for
-        <a href="https://extinctionrebellion.nl/">Extinction Rebellion</a>
+        <a href="https://extinctionrebellion.nl/" target="_blank"
+          >Extinction Rebellion</a
+        >
         (Amsterdam, The Netherlands).
       </template>
       <template #description>
