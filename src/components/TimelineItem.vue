@@ -2,15 +2,15 @@
   <div class="item">
     <div class="date">
       <div class="d-flex flex-column" style="height: 100%;">
-        <h6><slot name="startDate" /></h6>
+        <p><slot name="startDate" /></p>
         <div class="date-connector" v-if="$slots.endDate"></div>
-        <h6><slot name="endDate" /></h6>
+        <p><slot name="endDate" /></p>
       </div>
     </div>
     <div class="title">
-      <h5><slot name="title" /></h5>
+      <p><slot name="title" /></p>
     </div>
-    <div class="description">
+    <div class="description" v-if="$slots.description">
       <slot name="description" />
     </div>
   </div>
@@ -23,19 +23,22 @@ export default {
 </script>
 
 <style scoped lang="scss">
-$border-color: #e1e4e8;
-
 .date {
   grid-area: date;
   padding-top: 1rem;
   border-right: 1px solid $border-color;
   text-align: right;
   padding-right: 1rem;
+  p {
+    font-weight: 600;
+    margin-top: 0;
+  }
 }
 .title {
   grid-area: title;
   padding-top: 1rem;
   padding-left: 1rem;
+  font-weight: 600;
 }
 .description {
   grid-area: description;

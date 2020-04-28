@@ -22,8 +22,6 @@ export default {
 </script>
 
 <style lang="scss">
-$border-color: #e1e4e8;
-
 $A4-height: 29.7cm;
 $A4-width: 21cm;
 
@@ -42,7 +40,7 @@ $A4-width: 21cm;
 a,
 span,
 p {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 
 p {
