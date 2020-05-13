@@ -126,7 +126,7 @@
       <template #description>
         <p>
           In order to meet the application requirements of machine learning
-          master's, I took MIT OpenCourseWare online courses on Probability and
+          Master's, I took MIT OpenCourseWare online courses on Probability and
           Statistics, Linear Algebra and Calculus.
         </p>
       </template>

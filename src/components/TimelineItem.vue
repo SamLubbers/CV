@@ -18,17 +18,17 @@
 
 <script>
 export default {
-  name: "TimelineItem"
+  name: "TimelineItem",
 };
 </script>
 
 <style scoped lang="scss">
 .date {
   grid-area: date;
-  padding-top: 1rem;
+  padding-top: $section-space;
   border-right: 1px solid $border-color;
   text-align: right;
-  padding-right: 1rem;
+  padding-right: $section-space;
   p {
     font-weight: 600;
     margin-top: 0;
@@ -36,14 +36,15 @@ export default {
 }
 .title {
   grid-area: title;
-  padding-top: 1rem;
-  padding-left: 1rem;
+  padding-top: $section-space;
+  padding-left: $section-space;
   font-weight: 600;
 }
 .description {
   grid-area: description;
   padding-top: 0.5rem;
-  padding-left: 1rem;
+  padding-left: $section-space;
+  text-align: justify;
 }
 
 .date-connector {
@@ -54,7 +55,7 @@ export default {
 
 .item {
   display: grid;
-  grid-template-columns: 15% 85%;
+  grid-template-columns: $left-column-width $right-column-width;
   grid-template-rows: auto;
   grid-template-areas:
     "date title"
