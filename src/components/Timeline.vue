@@ -183,7 +183,7 @@
         <p>
           I primarily work as part of the tech team responsible for developing,
           implementing and maintaining the technical infrastructure of
-          Extinction Rebellion Nederland. In this team, I
+          Extinction Rebellion Netherlands In this team, I
           <strong>
             lead the development of an
             <a
@@ -209,7 +209,7 @@
         </p>
         <p>
           In addition to my work in the tech team, I have given 15 talks to a
-          total of 300 people as part of the outreach team, and I assit the
+          total of 300 people as part of the outreach team, and I assist the
           integration team with increasing the retention rate of new members.
         </p>
       </template>
