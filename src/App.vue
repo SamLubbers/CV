@@ -1,18 +1,19 @@
 <template>
   <div id="app">
-    <CVA4 />
+    <CV />
+    <!-- <CoverLetter /> -->
   </div>
 </template>
 
 <script>
-import CVA4 from "./CVA4.vue";
+import CV from "./CV.vue";
+import CoverLetter from "./CoverLetter.vue";
 
 export default {
   name: "App",
   components: {
-    CVA4
-  }
+    CV,
+    CoverLetter,
+  },
 };
 </script>
-
-<style lang="scss"></style>
